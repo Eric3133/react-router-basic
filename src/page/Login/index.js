@@ -7,6 +7,10 @@ const Login = () => {
       this is login
       <Link to="/article">to article</Link>
       <button onClick = {() => navigate('/article')}>to article</button>
+      <button onClick = {() => navigate('/article?id=1001&name=jack')}>use searchParams</button>
+      <button onClick = {() => navigate('/article/1002/eric')}>to article</button>
+
+
     </div>
   )
 }
